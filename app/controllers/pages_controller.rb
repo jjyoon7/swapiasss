@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   require "swapi"
 
   def home
-    @data_from_api = swapi_data(id)
+    @data_from_api = swapi_data(id) # need to receive params from submit tag from the view?
   end
 
   def swapi_data(id)
