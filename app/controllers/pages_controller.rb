@@ -2,17 +2,25 @@ class PagesController < ApplicationController
   require "swapi"
 
   def home
-    @data_from_api = swapi_data(id) # need to receive params from submit tag from the view?
+    @home_params = params[:search_term]
+    @data_from_api = swapi_data(@home_params) # need to receive params from submit tag from the view?
+    @chew_question_fav_human = Swapi.get_person(14)
+    @chew_question_from = Swapi.get_planet(14)
+    @chew_question_self = Swapi.get_person(13)
+    @chew_question_ship = Swapi.get_starship(10)
+    @chew_question_whip = Swapi.get_person(84)
   end
 
-  def swapi_data(id)
-    Swapi.get_person(people_id) ||
-    Swapi.get_planet(planet_id) ||
-    Swapi.get_starship(starship_id) ||
-    Swapi.get_vehicle(vehicle_id) ||
-    Swapi.get_film(film_id) ||
-    Swapi.get_all("resource_type") # param is string so need to specify it?
+  def info
+    @data_from_api = swapi_data(@home_params)
   end
 
+  def swapi_data(home_params)
+    Swapi.get_person(@home_params) ||
+    Swapi.get_planet(@home_params) ||
+    Swapi.get_starship(@home_params) ||
+    Swapi.get_vehicle(@home_params) ||
+    Swapi.get_film(@home_params)
+  end
 end
 
