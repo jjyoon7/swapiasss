@@ -2664,3 +2664,10 @@ Processing by PagesController#home as HTML
   Parameters: {"search_term"=>"5"}
   Rendered pages/home.html.erb within layouts/application (0.2ms)
 Completed 200 OK in 2648ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search_term=46" for 127.0.0.1 at 2016-08-04 20:25:13 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"46"}
+  Rendered pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 5127ms (Views: 14.8ms | ActiveRecord: 0.0ms)
