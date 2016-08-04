@@ -11,9 +11,8 @@ class PagesController < ApplicationController
     Swapi.get_starship(starship_id) ||
     Swapi.get_vehicle(vehicle_id) ||
     Swapi.get_film(film_id) ||
-    Swapi.get_all("resource_type")
+    Swapi.get_all("resource_type") # param is string so need to specify it?
   end
-
 
 end
 
