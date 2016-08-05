@@ -14,9 +14,13 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require bootstrap-sprockets
 
 $(document).ready(function () {
-    $('wookiever').click(function () {
-       $('form').append('<p>?format=wookiee</p>') // I want to append this in order to translate json data to wookie form
-        })
-    });
+  $('#wookiever').click(function () {
+   var loc = location.href; // I did not wrote this code from here
+   loc += loc.indexOf("?") === -1 ? "?" : "/";
+   location.href = loc + "?format=wookiee"; // to here
+    // $('form').append('<p>?format=wookiee</p>') // I want to append this in order to translate json data to wookie form and this was my guess
+     })
+});
