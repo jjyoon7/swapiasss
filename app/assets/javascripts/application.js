@@ -24,3 +24,14 @@ $(document).ready(function () {
     // $('form').append('<p>?format=wookiee</p>') // I want to append this in order to translate json data to wookie form and this was my guess
      })
 });
+
+// var audio = document.getElementsByTagName("audio")[0];
+// audio.play();
+
+// var audio = $("audio/chewsound.mpe")[0];
+// audio.play();
+
+var audio = $("audio/chewsound.mp3")[0];
+$("#wookiever").mouseenter(function() {
+  audio.play();
+});
