@@ -1,26 +1,22 @@
 <div class="container">
-  <div class="row">
+  <div class="chewie-part">
+    <%= image_tag "chewhead.png", class: "chewie" %>
+  </div>
 
-<!--     <div class="col-xs-12 col-sm-">
-    <%= @chew_question_whip %>
-  </div> -->
-
-    <div class="col-xs-12 col-sm-6">
-      <div>
-         <img src="images/chew.jpeg" alt="" class="chewie">
-      </div>
-
-      <div>
-         <form action="/" method="get">
+  <div class="data-part">
+    <h1>Ask Chewie!</h1>
+    <div class="form">
+        <form action="/" method="get" class="search-bar">
           <input type="text" name="search_term" placeholder="put 1 to 88 to find starwars characters">
           <input type="submit">
+          <input type="submit" value="wookie" class="wookiever">
         </form>
-      </div>
     </div>
 
-  <div class="row">
-    <div class="col-xs-12 col-sm-6">
-      <%= @data_from_api %>
+    <div class="data">
+        <h2><%= @data_from_api["name"] %></h2>
+        <%= @data_from_api["homeworld"] %>
     </div>
   </div>
 </div>
+

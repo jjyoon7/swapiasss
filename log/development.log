@@ -3186,3 +3186,2116 @@ ActionController::RoutingError (No route matches [GET] "/images/chew.jpeg"):
   Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
   Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
   Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (111.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-04 21:00:16 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 7926ms (Views: 462.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-04 21:00:24 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2466ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/chew.jpeg" for 127.0.0.1 at 2016-08-04 21:00:26 +0200
+
+ActionController::RoutingError (No route matches [GET] "/images/chew.jpeg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.6ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (82.7ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (68.0ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (137.2ms)
+
+
+Started GET "/?search_term=12" for 127.0.0.1 at 2016-08-04 21:00:49 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"12"}
+  Rendered pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4543ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/chew.jpeg" for 127.0.0.1 at 2016-08-04 21:00:53 +0200
+
+ActionController::RoutingError (No route matches [GET] "/images/chew.jpeg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (74.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (46.9ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (107.0ms)
+
+
+Started GET "/?search_term=11" for 127.0.0.1 at 2016-08-04 21:01:00 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"11"}
+  Rendered pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2883ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/chew.jpeg" for 127.0.0.1 at 2016-08-04 21:01:03 +0200
+
+ActionController::RoutingError (No route matches [GET] "/images/chew.jpeg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (68.4ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (44.9ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (99.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-05 14:27:57 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 3089ms (Views: 249.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-39d4a42f2cebb6a389912a55be6f9a5ca7cb2471c50e3c4ed4afa83989d932df.css?body=1" for 127.0.0.1 at 2016-08-05 14:28:00 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 14:28:00 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 14:28:00 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 14:28:00 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 14:28:00 +0200
+
+
+Started GET "/assets/application.self-d34b24cf8292daa3277bfd99dbe41c9dee629b61d4612782f1391a625981d191.css?body=1" for 127.0.0.1 at 2016-08-05 14:28:00 +0200
+
+
+Started GET "/images/chew.jpeg" for 127.0.0.1 at 2016-08-05 14:28:00 +0200
+
+ActionController::RoutingError (No route matches [GET] "/images/chew.jpeg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.7ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (86.1ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (61.5ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (133.2ms)
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 14:28:06 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3171ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/chew.jpeg" for 127.0.0.1 at 2016-08-05 14:28:09 +0200
+
+ActionController::RoutingError (No route matches [GET] "/images/chew.jpeg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (69.7ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (43.2ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (104.3ms)
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 14:29:11 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2443ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-39d4a42f2cebb6a389912a55be6f9a5ca7cb2471c50e3c4ed4afa83989d932df.css?body=1" for 127.0.0.1 at 2016-08-05 14:29:13 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 14:29:13 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 14:29:13 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 14:29:13 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 14:29:13 +0200
+
+
+Started GET "/assets/application.self-d34b24cf8292daa3277bfd99dbe41c9dee629b61d4612782f1391a625981d191.css?body=1" for 127.0.0.1 at 2016-08-05 14:29:13 +0200
+
+
+Started GET "/images/chew.jpeg" for 127.0.0.1 at 2016-08-05 14:29:13 +0200
+
+ActionController::RoutingError (No route matches [GET] "/images/chew.jpeg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (68.5ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (47.6ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (102.4ms)
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 14:31:26 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 384ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-4cfb182b2d4b33d9cdc649e5f9f7771509bb127398e53ab0ac94727a508f99e7.css?body=1" for 127.0.0.1 at 2016-08-05 14:31:27 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 14:31:27 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 14:31:27 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 14:31:27 +0200
+
+
+Started GET "/assets/application.self-d590f59d9245d5ebfa01105db9613a2153bd0b342be84ac87d4e5918a91b3ea5.css?body=1" for 127.0.0.1 at 2016-08-05 14:31:27 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 14:31:27 +0200
+
+
+Started GET "/assets/chew-34ea05bac713e3bc0bb2342cb017e19a9ebfffb723d4bae71f01181ea96ef508.jpg" for 127.0.0.1 at 2016-08-05 14:31:27 +0200
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 14:31:42 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 448ms (ActiveRecord: 0.0ms)
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/views/pages/home.html.erb:23:in `_app_views_pages_home_html_erb__302082714864398922_70161944287860'
+  actionview (4.2.6) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.6) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.6) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.6) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (4.2.6) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.6) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:46:in `render_template'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:27:in `render'
+  actionview (4.2.6) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.6) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.6) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.6) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/ab984198362b79c2/variables" for 127.0.0.1 at 2016-08-05 14:31:42 +0200
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 14:31:57 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 433ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-4cfb182b2d4b33d9cdc649e5f9f7771509bb127398e53ab0ac94727a508f99e7.css?body=1" for 127.0.0.1 at 2016-08-05 14:31:57 +0200
+
+
+Started GET "/assets/application.self-d590f59d9245d5ebfa01105db9613a2153bd0b342be84ac87d4e5918a91b3ea5.css?body=1" for 127.0.0.1 at 2016-08-05 14:31:57 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 14:31:57 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 14:31:57 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 14:31:57 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 14:31:57 +0200
+
+
+Started GET "/assets/chew-34ea05bac713e3bc0bb2342cb017e19a9ebfffb723d4bae71f01181ea96ef508.jpg" for 127.0.0.1 at 2016-08-05 14:31:58 +0200
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 14:32:04 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 3618ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-4cfb182b2d4b33d9cdc649e5f9f7771509bb127398e53ab0ac94727a508f99e7.css?body=1" for 127.0.0.1 at 2016-08-05 14:32:07 +0200
+
+
+Started GET "/assets/application.self-d590f59d9245d5ebfa01105db9613a2153bd0b342be84ac87d4e5918a91b3ea5.css?body=1" for 127.0.0.1 at 2016-08-05 14:32:07 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 14:32:07 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 14:32:07 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 14:32:07 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 14:32:07 +0200
+
+
+Started GET "/assets/chew-34ea05bac713e3bc0bb2342cb017e19a9ebfffb723d4bae71f01181ea96ef508.jpg" for 127.0.0.1 at 2016-08-05 14:32:07 +0200
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 14:48:41 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 435ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-4cfb182b2d4b33d9cdc649e5f9f7771509bb127398e53ab0ac94727a508f99e7.css?body=1" for 127.0.0.1 at 2016-08-05 14:48:41 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 14:48:41 +0200
+
+
+Started GET "/assets/application.self-d590f59d9245d5ebfa01105db9613a2153bd0b342be84ac87d4e5918a91b3ea5.css?body=1" for 127.0.0.1 at 2016-08-05 14:48:41 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 14:48:41 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 14:48:41 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 14:48:41 +0200
+
+
+Started GET "/chewhead.png" for 127.0.0.1 at 2016-08-05 14:48:41 +0200
+
+ActionController::RoutingError (No route matches [GET] "/chewhead.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (69.8ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (45.9ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (105.4ms)
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 14:49:10 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 466ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-4cfb182b2d4b33d9cdc649e5f9f7771509bb127398e53ab0ac94727a508f99e7.css?body=1" for 127.0.0.1 at 2016-08-05 14:49:10 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 14:49:10 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 14:49:10 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 14:49:10 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 14:49:10 +0200
+
+
+Started GET "/assets/application.self-d590f59d9245d5ebfa01105db9613a2153bd0b342be84ac87d4e5918a91b3ea5.css?body=1" for 127.0.0.1 at 2016-08-05 14:49:10 +0200
+
+
+Started GET "/chewhead.png" for 127.0.0.1 at 2016-08-05 14:49:10 +0200
+
+ActionController::RoutingError (No route matches [GET] "/chewhead.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (74.6ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (50.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (108.0ms)
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 14:49:26 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 497ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 14:49:27 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 376ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-4cfb182b2d4b33d9cdc649e5f9f7771509bb127398e53ab0ac94727a508f99e7.css?body=1" for 127.0.0.1 at 2016-08-05 14:49:27 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 14:49:27 +0200
+
+
+Started GET "/assets/application.self-d590f59d9245d5ebfa01105db9613a2153bd0b342be84ac87d4e5918a91b3ea5.css?body=1" for 127.0.0.1 at 2016-08-05 14:49:27 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 14:49:27 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 14:49:27 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 14:49:27 +0200
+
+
+Started GET "/images/chewhead.png" for 127.0.0.1 at 2016-08-05 14:49:27 +0200
+
+ActionController::RoutingError (No route matches [GET] "/images/chewhead.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (72.6ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (49.7ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (109.9ms)
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 14:49:39 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 552ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-4cfb182b2d4b33d9cdc649e5f9f7771509bb127398e53ab0ac94727a508f99e7.css?body=1" for 127.0.0.1 at 2016-08-05 14:49:40 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 14:49:40 +0200
+
+
+Started GET "/assets/application.self-d590f59d9245d5ebfa01105db9613a2153bd0b342be84ac87d4e5918a91b3ea5.css?body=1" for 127.0.0.1 at 2016-08-05 14:49:40 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 14:49:40 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 14:49:40 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 14:49:40 +0200
+
+
+Started GET "/images/chewhead.png" for 127.0.0.1 at 2016-08-05 14:49:40 +0200
+
+ActionController::RoutingError (No route matches [GET] "/images/chewhead.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (72.7ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (54.0ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jayjiwonyoon/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (113.2ms)
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 14:50:35 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (66.5ms)
+Completed 200 OK in 424ms (Views: 79.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-4cfb182b2d4b33d9cdc649e5f9f7771509bb127398e53ab0ac94727a508f99e7.css?body=1" for 127.0.0.1 at 2016-08-05 14:50:36 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 14:50:36 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 14:50:36 +0200
+
+
+Started GET "/assets/application.self-d590f59d9245d5ebfa01105db9613a2153bd0b342be84ac87d4e5918a91b3ea5.css?body=1" for 127.0.0.1 at 2016-08-05 14:50:36 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 14:50:36 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 14:50:36 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 14:50:36 +0200
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 14:50:48 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 466ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-5d7c23f66f496b3ba870c971c0872eacca3319019daccc70c9a22c449e9e8850.css?body=1" for 127.0.0.1 at 2016-08-05 14:50:48 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 14:50:48 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 14:50:48 +0200
+
+
+Started GET "/assets/application.self-5eb203ba472ed3db1f4047ea231252a028ba94a55f0e62be3505b8f6bd90ffb6.css?body=1" for 127.0.0.1 at 2016-08-05 14:50:48 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 14:50:48 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 14:50:49 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 14:50:49 +0200
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 14:51:47 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 301ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-eba7e0c69890aa376d5b4b35d28dd3d2f9612f8a2eed2739eb39820fefffbee7.css?body=1" for 127.0.0.1 at 2016-08-05 14:51:47 +0200
+
+
+Started GET "/assets/application.self-ac2101302269d765514aa74496ab28dc0b44fee8018dbcde57a69bbda9b4ca2e.css?body=1" for 127.0.0.1 at 2016-08-05 14:51:47 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 14:51:47 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 14:51:47 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 14:51:47 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 14:51:47 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 14:51:47 +0200
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 14:53:17 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 463ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-37e83d148baf645cf421696935626962e0703cef68e7afff1f48fe45755697f7.css?body=1" for 127.0.0.1 at 2016-08-05 14:53:18 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 14:53:18 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 14:53:18 +0200
+
+
+Started GET "/assets/application.self-632225209f87e4e99d9ea1bc1513b15b8eea1e5590811297d68b83ec77c0db54.css?body=1" for 127.0.0.1 at 2016-08-05 14:53:18 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 14:53:18 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 14:53:18 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 14:53:18 +0200
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 14:53:40 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 570ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-9417147f010b1a9eb8bc8380666efa35bfea8225bca05977e4b5971595dafec3.css?body=1" for 127.0.0.1 at 2016-08-05 14:53:41 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 14:53:41 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 14:53:41 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 14:53:41 +0200
+
+
+Started GET "/assets/application.self-7a69f55f9a4b655383cca406a8d92d01da3936abe068ed781358bcc068fb04a7.css?body=1" for 127.0.0.1 at 2016-08-05 14:53:41 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 14:53:41 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 14:53:41 +0200
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 14:55:19 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 468ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-0cab8b3e8818f85e1abbcfc58a8460a894d812da9a62ab6882136e5019966f8e.css?body=1" for 127.0.0.1 at 2016-08-05 14:55:19 +0200
+
+
+Started GET "/assets/application.self-b635d2cd45beaf86a10282de9777091ee839ec35f345da21a5c3ab5733f6230c.css?body=1" for 127.0.0.1 at 2016-08-05 14:55:19 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 14:55:19 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 14:55:19 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 14:55:19 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 14:55:19 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 14:55:19 +0200
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 14:55:31 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 646ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-1fa53743bae5d7401eeb8abf6f519a11101b7df82414649905860be18aac59a3.css?body=1" for 127.0.0.1 at 2016-08-05 14:55:32 +0200
+
+
+Started GET "/assets/application.self-de40f0a751e371b137b0024064c509563f9fd1adae0a6637e429095057ab6ae4.css?body=1" for 127.0.0.1 at 2016-08-05 14:55:32 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 14:55:32 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 14:55:32 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 14:55:32 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 14:55:32 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 14:55:32 +0200
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 14:56:43 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 520ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-7ecc37b3f708f09b555812d9c52c7327cdec8631dc63f91e66a9d7479bcd7236.css?body=1" for 127.0.0.1 at 2016-08-05 14:56:43 +0200
+
+
+Started GET "/assets/application.self-af9c0dacdcf8e10d32daaa3a4f8b0f8be56f48da0126371720391a9b5964c966.css?body=1" for 127.0.0.1 at 2016-08-05 14:56:43 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 14:56:43 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 14:56:43 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 14:56:43 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 14:56:43 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 14:56:43 +0200
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 14:57:05 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 510ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-f69f0d5a77706a8a896501f0742d45a61ed7eb79c87dcfc3ad4896c72378a30c.css?body=1" for 127.0.0.1 at 2016-08-05 14:57:05 +0200
+
+
+Started GET "/assets/application.self-30c8bc5d983b6f39a135a674cf6227f1f6bf562d37e4230ee3016910ae2a800c.css?body=1" for 127.0.0.1 at 2016-08-05 14:57:05 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 14:57:05 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 14:57:05 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 14:57:05 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 14:57:05 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 14:57:05 +0200
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 14:59:10 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 1414ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-7101a6ddedbcaa3cd0fe7035bf24a93aa97e8b9b1557a5fb2af7d3e6b2fd0262.css?body=1" for 127.0.0.1 at 2016-08-05 14:59:11 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 14:59:11 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 14:59:11 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 14:59:11 +0200
+
+
+Started GET "/assets/application.self-d58415139ed99582c449317ef66013716bca3586ce1e7b6a3c047ac02e8141dd.css?body=1" for 127.0.0.1 at 2016-08-05 14:59:11 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 14:59:11 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 14:59:11 +0200
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 14:59:27 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 594ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-7101a6ddedbcaa3cd0fe7035bf24a93aa97e8b9b1557a5fb2af7d3e6b2fd0262.css?body=1" for 127.0.0.1 at 2016-08-05 14:59:28 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 14:59:28 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 14:59:28 +0200
+
+
+Started GET "/assets/application.self-d58415139ed99582c449317ef66013716bca3586ce1e7b6a3c047ac02e8141dd.css?body=1" for 127.0.0.1 at 2016-08-05 14:59:28 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 14:59:28 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 14:59:28 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 14:59:28 +0200
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 14:59:59 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 473ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-7101a6ddedbcaa3cd0fe7035bf24a93aa97e8b9b1557a5fb2af7d3e6b2fd0262.css?body=1" for 127.0.0.1 at 2016-08-05 15:00:00 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 15:00:00 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:00:00 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:00:00 +0200
+
+
+Started GET "/assets/application.self-d58415139ed99582c449317ef66013716bca3586ce1e7b6a3c047ac02e8141dd.css?body=1" for 127.0.0.1 at 2016-08-05 15:00:00 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:00:00 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:00:00 +0200
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 15:00:24 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 956ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-7101a6ddedbcaa3cd0fe7035bf24a93aa97e8b9b1557a5fb2af7d3e6b2fd0262.css?body=1" for 127.0.0.1 at 2016-08-05 15:00:25 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:00:25 +0200
+
+
+Started GET "/assets/application.self-d58415139ed99582c449317ef66013716bca3586ce1e7b6a3c047ac02e8141dd.css?body=1" for 127.0.0.1 at 2016-08-05 15:00:25 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:00:25 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:00:25 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 15:00:25 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:00:25 +0200
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 15:00:36 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 495ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-7101a6ddedbcaa3cd0fe7035bf24a93aa97e8b9b1557a5fb2af7d3e6b2fd0262.css?body=1" for 127.0.0.1 at 2016-08-05 15:00:37 +0200
+
+
+Started GET "/assets/application.self-d58415139ed99582c449317ef66013716bca3586ce1e7b6a3c047ac02e8141dd.css?body=1" for 127.0.0.1 at 2016-08-05 15:00:37 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:00:37 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:00:37 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:00:37 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 15:00:37 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:00:37 +0200
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 15:01:35 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 497ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-149af1b43fe5e34a754a5cc1bdfb6a7fe4171f83ab6a9fa4ec8a2dbab1a54a64.css?body=1" for 127.0.0.1 at 2016-08-05 15:01:36 +0200
+
+
+Started GET "/assets/application.self-f27da519b40098a92f71862bda3399d159f7fbdf3de935d697c0ce4c0873cead.css?body=1" for 127.0.0.1 at 2016-08-05 15:01:36 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:01:36 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:01:36 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-08-05 15:01:36 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:01:36 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:01:36 +0200
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 15:11:26 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 520ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-149af1b43fe5e34a754a5cc1bdfb6a7fe4171f83ab6a9fa4ec8a2dbab1a54a64.css?body=1" for 127.0.0.1 at 2016-08-05 15:11:27 +0200
+
+
+Started GET "/assets/application.self-f27da519b40098a92f71862bda3399d159f7fbdf3de935d697c0ce4c0873cead.css?body=1" for 127.0.0.1 at 2016-08-05 15:11:27 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:11:27 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:11:27 +0200
+
+
+Started GET "/assets/application.self-543885340b54b81cd107918bd8f3280e5ec400f9616517005e9628861f7a46f9.js?body=1" for 127.0.0.1 at 2016-08-05 15:11:27 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:11:27 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:11:27 +0200
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 15:11:30 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 456ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 15:11:41 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 1757ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-149af1b43fe5e34a754a5cc1bdfb6a7fe4171f83ab6a9fa4ec8a2dbab1a54a64.css?body=1" for 127.0.0.1 at 2016-08-05 15:11:43 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:11:43 +0200
+
+
+Started GET "/assets/application.self-f27da519b40098a92f71862bda3399d159f7fbdf3de935d697c0ce4c0873cead.css?body=1" for 127.0.0.1 at 2016-08-05 15:11:43 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:11:43 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:11:43 +0200
+
+
+Started GET "/assets/application.self-543885340b54b81cd107918bd8f3280e5ec400f9616517005e9628861f7a46f9.js?body=1" for 127.0.0.1 at 2016-08-05 15:11:43 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:11:43 +0200
+
+
+Started GET "/?search_term=1%2F%3Fformat%3Dwookiee" for 127.0.0.1 at 2016-08-05 15:11:54 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"1/?format=wookiee"}
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 255ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 15:12:12 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 831ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 15:12:37 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 426ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-149af1b43fe5e34a754a5cc1bdfb6a7fe4171f83ab6a9fa4ec8a2dbab1a54a64.css?body=1" for 127.0.0.1 at 2016-08-05 15:12:38 +0200
+
+
+Started GET "/assets/application.self-f27da519b40098a92f71862bda3399d159f7fbdf3de935d697c0ce4c0873cead.css?body=1" for 127.0.0.1 at 2016-08-05 15:12:38 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:12:38 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:12:38 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:12:38 +0200
+
+
+Started GET "/assets/application.self-543885340b54b81cd107918bd8f3280e5ec400f9616517005e9628861f7a46f9.js?body=1" for 127.0.0.1 at 2016-08-05 15:12:38 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:12:38 +0200
+
+
+Started GET "/?search_term=6" for 127.0.0.1 at 2016-08-05 15:12:40 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"6"}
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 4128ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search_term=6" for 127.0.0.1 at 2016-08-05 15:13:33 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"6"}
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 506ms (Views: 65.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-149af1b43fe5e34a754a5cc1bdfb6a7fe4171f83ab6a9fa4ec8a2dbab1a54a64.css?body=1" for 127.0.0.1 at 2016-08-05 15:13:33 +0200
+
+
+Started GET "/assets/application.self-af944636177d76a4620ff397ab8fbff6bfe6c29066c6893263023289681f3f27.js?body=1" for 127.0.0.1 at 2016-08-05 15:13:33 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:13:33 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:13:33 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:13:33 +0200
+
+
+Started GET "/assets/application.self-f27da519b40098a92f71862bda3399d159f7fbdf3de935d697c0ce4c0873cead.css?body=1" for 127.0.0.1 at 2016-08-05 15:13:33 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:13:33 +0200
+
+
+Started GET "/?search_term=" for 127.0.0.1 at 2016-08-05 15:13:39 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>""}
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 331ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search_term=" for 127.0.0.1 at 2016-08-05 15:13:46 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>""}
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 394ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-149af1b43fe5e34a754a5cc1bdfb6a7fe4171f83ab6a9fa4ec8a2dbab1a54a64.css?body=1" for 127.0.0.1 at 2016-08-05 15:13:47 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:13:47 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:13:47 +0200
+
+
+Started GET "/assets/application.self-af944636177d76a4620ff397ab8fbff6bfe6c29066c6893263023289681f3f27.js?body=1" for 127.0.0.1 at 2016-08-05 15:13:47 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:13:47 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:13:47 +0200
+
+
+Started GET "/assets/application.self-f27da519b40098a92f71862bda3399d159f7fbdf3de935d697c0ce4c0873cead.css?body=1" for 127.0.0.1 at 2016-08-05 15:13:47 +0200
+
+
+Started GET "/?search_term=" for 127.0.0.1 at 2016-08-05 15:14:08 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>""}
+  Rendered pages/home.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 870ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-149af1b43fe5e34a754a5cc1bdfb6a7fe4171f83ab6a9fa4ec8a2dbab1a54a64.css?body=1" for 127.0.0.1 at 2016-08-05 15:14:08 +0200
+
+
+Started GET "/assets/application.self-f27da519b40098a92f71862bda3399d159f7fbdf3de935d697c0ce4c0873cead.css?body=1" for 127.0.0.1 at 2016-08-05 15:14:08 +0200
+
+
+Started GET "/assets/application.self-af944636177d76a4620ff397ab8fbff6bfe6c29066c6893263023289681f3f27.js?body=1" for 127.0.0.1 at 2016-08-05 15:14:08 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:14:08 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:14:08 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:14:08 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:14:08 +0200
+
+
+Started GET "/?search_term=" for 127.0.0.1 at 2016-08-05 15:14:12 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>""}
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 2318ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search_term=" for 127.0.0.1 at 2016-08-05 15:14:27 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>""}
+  Rendered pages/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 408ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-149af1b43fe5e34a754a5cc1bdfb6a7fe4171f83ab6a9fa4ec8a2dbab1a54a64.css?body=1" for 127.0.0.1 at 2016-08-05 15:14:28 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:14:28 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:14:28 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:14:28 +0200
+
+
+Started GET "/assets/application.self-f27da519b40098a92f71862bda3399d159f7fbdf3de935d697c0ce4c0873cead.css?body=1" for 127.0.0.1 at 2016-08-05 15:14:28 +0200
+
+
+Started GET "/assets/application.self-af944636177d76a4620ff397ab8fbff6bfe6c29066c6893263023289681f3f27.js?body=1" for 127.0.0.1 at 2016-08-05 15:14:28 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:14:28 +0200
+
+
+Started GET "/?search_term=" for 127.0.0.1 at 2016-08-05 15:14:31 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>""}
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 413ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:14:32 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:14:32 +0200
+
+
+Started GET "/assets/application.self-af944636177d76a4620ff397ab8fbff6bfe6c29066c6893263023289681f3f27.js?body=1" for 127.0.0.1 at 2016-08-05 15:14:32 +0200
+
+
+Started GET "/assets/_home.self-149af1b43fe5e34a754a5cc1bdfb6a7fe4171f83ab6a9fa4ec8a2dbab1a54a64.css?body=1" for 127.0.0.1 at 2016-08-05 15:14:32 +0200
+
+
+Started GET "/assets/application.self-f27da519b40098a92f71862bda3399d159f7fbdf3de935d697c0ce4c0873cead.css?body=1" for 127.0.0.1 at 2016-08-05 15:14:32 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:14:32 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:14:32 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-05 15:15:29 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search_term=" for 127.0.0.1 at 2016-08-05 15:15:32 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>""}
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 299ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search_term=14" for 127.0.0.1 at 2016-08-05 15:15:39 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"14"}
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 539ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search_term=" for 127.0.0.1 at 2016-08-05 15:15:42 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>""}
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1378ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search_term=" for 127.0.0.1 at 2016-08-05 15:16:07 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>""}
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 569ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8c97a7cd07b8b81786b15cd25002a2d5be77677c9e0922f3ba5cb3c50deca6b5.css?body=1" for 127.0.0.1 at 2016-08-05 15:16:08 +0200
+
+
+Started GET "/assets/application.self-af944636177d76a4620ff397ab8fbff6bfe6c29066c6893263023289681f3f27.js?body=1" for 127.0.0.1 at 2016-08-05 15:16:08 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:16:08 +0200
+
+
+Started GET "/assets/_home.self-6f63b3d2d38544c38e5c14e525a9467751b08a0b11a0c2d7275da7139871ad75.css?body=1" for 127.0.0.1 at 2016-08-05 15:16:08 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:16:08 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:16:08 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:16:08 +0200
+
+
+Started GET "/?search_term=" for 127.0.0.1 at 2016-08-05 15:16:15 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>""}
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 401ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-7ca47ff6adfced807268be956212beef711774c60607a8a0d686ea7cab37dab1.css?body=1" for 127.0.0.1 at 2016-08-05 15:16:16 +0200
+
+
+Started GET "/assets/application.self-5d28fae8734606da0b753a4b6ebc21defef0471815f48f2e2844f3664047f254.css?body=1" for 127.0.0.1 at 2016-08-05 15:16:16 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:16:16 +0200
+
+
+Started GET "/assets/application.self-af944636177d76a4620ff397ab8fbff6bfe6c29066c6893263023289681f3f27.js?body=1" for 127.0.0.1 at 2016-08-05 15:16:16 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:16:16 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:16:16 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:16:16 +0200
+
+
+Started GET "/?search_term=" for 127.0.0.1 at 2016-08-05 15:16:46 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>""}
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 916ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-7ca47ff6adfced807268be956212beef711774c60607a8a0d686ea7cab37dab1.css?body=1" for 127.0.0.1 at 2016-08-05 15:16:47 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:16:47 +0200
+
+
+Started GET "/assets/application.self-5d28fae8734606da0b753a4b6ebc21defef0471815f48f2e2844f3664047f254.css?body=1" for 127.0.0.1 at 2016-08-05 15:16:47 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:16:47 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:16:47 +0200
+
+
+Started GET "/assets/application.self-af944636177d76a4620ff397ab8fbff6bfe6c29066c6893263023289681f3f27.js?body=1" for 127.0.0.1 at 2016-08-05 15:16:47 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:16:47 +0200
+
+
+Started GET "/?search_term=" for 127.0.0.1 at 2016-08-05 15:16:49 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>""}
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 438ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search_term=" for 127.0.0.1 at 2016-08-05 15:17:49 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>""}
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 400ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-2cd089daf45febad7ae9be64279dc4dcb3aa404f82da778a6c023c29118321b1.css?body=1" for 127.0.0.1 at 2016-08-05 15:17:50 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:17:50 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:17:50 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:17:50 +0200
+
+
+Started GET "/assets/application.self-2c99a6faf406894b44da7b404d2e5d61cbecb729ada8080540a61cd6f0f99645.css?body=1" for 127.0.0.1 at 2016-08-05 15:17:50 +0200
+
+
+Started GET "/assets/application.self-af944636177d76a4620ff397ab8fbff6bfe6c29066c6893263023289681f3f27.js?body=1" for 127.0.0.1 at 2016-08-05 15:17:50 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:17:50 +0200
+
+
+Started GET "/?search_term=" for 127.0.0.1 at 2016-08-05 15:21:27 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>""}
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 850ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-ebe58462f5b748e24c3ece1fd7c304fb2bb3d32b59277524c2147296397fe0a2.css?body=1" for 127.0.0.1 at 2016-08-05 15:21:28 +0200
+
+
+Started GET "/assets/application.self-8856eecac81c8a56dad10ce5a676ff9474c0418eff6c1527c271a27bf0d5e854.css?body=1" for 127.0.0.1 at 2016-08-05 15:21:28 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:21:28 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:21:28 +0200
+
+
+Started GET "/assets/application.self-af944636177d76a4620ff397ab8fbff6bfe6c29066c6893263023289681f3f27.js?body=1" for 127.0.0.1 at 2016-08-05 15:21:28 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:21:28 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:21:28 +0200
+
+
+Started GET "/?search_term=" for 127.0.0.1 at 2016-08-05 15:23:22 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>""}
+  Rendered pages/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 905ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-ebe58462f5b748e24c3ece1fd7c304fb2bb3d32b59277524c2147296397fe0a2.css?body=1" for 127.0.0.1 at 2016-08-05 15:23:23 +0200
+
+
+Started GET "/assets/application.self-8856eecac81c8a56dad10ce5a676ff9474c0418eff6c1527c271a27bf0d5e854.css?body=1" for 127.0.0.1 at 2016-08-05 15:23:23 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:23:23 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:23:23 +0200
+
+
+Started GET "/assets/application.self-af944636177d76a4620ff397ab8fbff6bfe6c29066c6893263023289681f3f27.js?body=1" for 127.0.0.1 at 2016-08-05 15:23:23 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:23:23 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:23:23 +0200
+
+
+Started GET "/?search_term=" for 127.0.0.1 at 2016-08-05 15:23:45 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>""}
+  Rendered pages/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 1204ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-ebe58462f5b748e24c3ece1fd7c304fb2bb3d32b59277524c2147296397fe0a2.css?body=1" for 127.0.0.1 at 2016-08-05 15:23:46 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:23:46 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:23:46 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:23:46 +0200
+
+
+Started GET "/assets/application.self-af944636177d76a4620ff397ab8fbff6bfe6c29066c6893263023289681f3f27.js?body=1" for 127.0.0.1 at 2016-08-05 15:23:46 +0200
+
+
+Started GET "/assets/application.self-8856eecac81c8a56dad10ce5a676ff9474c0418eff6c1527c271a27bf0d5e854.css?body=1" for 127.0.0.1 at 2016-08-05 15:23:46 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:23:46 +0200
+
+
+Started GET "/?search_term=" for 127.0.0.1 at 2016-08-05 15:24:43 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>""}
+  Rendered pages/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 3265ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-69869d9da24b47dd6a82f96e8a7b00622d539af20474a611e02a2d0422c12d59.css?body=1" for 127.0.0.1 at 2016-08-05 15:24:46 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:24:46 +0200
+
+
+Started GET "/assets/application.self-25a472c9c3c3eb89bfd83468795dd4c3c17eb4758090b7a75b4870517ed94f1a.css?body=1" for 127.0.0.1 at 2016-08-05 15:24:46 +0200
+
+
+Started GET "/assets/application.self-af944636177d76a4620ff397ab8fbff6bfe6c29066c6893263023289681f3f27.js?body=1" for 127.0.0.1 at 2016-08-05 15:24:46 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:24:46 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:24:46 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:24:46 +0200
+
+
+Started GET "/?search_term=" for 127.0.0.1 at 2016-08-05 15:25:38 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>""}
+  Rendered pages/home.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 444ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-cb93888adaa6efe31f712535bc973940fbcfce766d2a25e870bade3787240836.css?body=1" for 127.0.0.1 at 2016-08-05 15:25:38 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:25:38 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:25:38 +0200
+
+
+Started GET "/assets/application.self-739c34f2713c70ba2688b382361cb787abb23f1a5c5bc7356021fcebc4da5c46.css?body=1" for 127.0.0.1 at 2016-08-05 15:25:38 +0200
+
+
+Started GET "/assets/application.self-af944636177d76a4620ff397ab8fbff6bfe6c29066c6893263023289681f3f27.js?body=1" for 127.0.0.1 at 2016-08-05 15:25:38 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:25:38 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:25:38 +0200
+
+
+Started GET "/?search_term=" for 127.0.0.1 at 2016-08-05 15:25:55 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>""}
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 543ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-bb84df5f34150f6ce6a3d3f42e7f531e3bc58a03be7a7ea93c739aa53b1462f0.css?body=1" for 127.0.0.1 at 2016-08-05 15:25:56 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:25:56 +0200
+
+
+Started GET "/assets/application.self-af944636177d76a4620ff397ab8fbff6bfe6c29066c6893263023289681f3f27.js?body=1" for 127.0.0.1 at 2016-08-05 15:25:56 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:25:56 +0200
+
+
+Started GET "/assets/application.self-6ec3d5bab8b7e0552911f4e94f2982dfb60a861231b430ce580636733587f5dd.css?body=1" for 127.0.0.1 at 2016-08-05 15:25:56 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:25:56 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:25:56 +0200
+
+
+Started GET "/?search_term=" for 127.0.0.1 at 2016-08-05 15:26:10 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>""}
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 423ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-f6a0374f6c4e5dbc02027104037ff3aefd81c4424b90ed07c4602d8dc9d4e65b.css?body=1" for 127.0.0.1 at 2016-08-05 15:26:11 +0200
+
+
+Started GET "/assets/application.self-af944636177d76a4620ff397ab8fbff6bfe6c29066c6893263023289681f3f27.js?body=1" for 127.0.0.1 at 2016-08-05 15:26:11 +0200
+
+
+Started GET "/assets/application.self-94b7a2811507f59182433abaa84fba5c1d6c1242ef4c535d17550e2a3b6ba06e.css?body=1" for 127.0.0.1 at 2016-08-05 15:26:11 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:26:11 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:26:11 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:26:11 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:26:11 +0200
+
+
+Started GET "/?search_term=" for 127.0.0.1 at 2016-08-05 15:30:10 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>""}
+  Rendered pages/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 478ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-e8ee496ae09ba7ff45a1e4a9c922ea6693d91ad97151dd642ff5238019b31db7.css?body=1" for 127.0.0.1 at 2016-08-05 15:30:11 +0200
+
+
+Started GET "/assets/application.self-b89489b338f6b04a47eb508882c7b7e23e933da4feeb82e492eecbdfd8f75d86.css?body=1" for 127.0.0.1 at 2016-08-05 15:30:11 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:30:11 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:30:11 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:30:11 +0200
+
+
+Started GET "/assets/application.self-af944636177d76a4620ff397ab8fbff6bfe6c29066c6893263023289681f3f27.js?body=1" for 127.0.0.1 at 2016-08-05 15:30:11 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:30:11 +0200
+
+
+Started GET "/?search_term=" for 127.0.0.1 at 2016-08-05 15:30:23 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>""}
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 528ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-fd5500cae3887a7ee712be2f7ac135710f016a7159aa184d552ccbe850e1f90d.css?body=1" for 127.0.0.1 at 2016-08-05 15:30:24 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:30:24 +0200
+
+
+Started GET "/assets/application.self-9e96a36f5095fece9d743818543f270eda71af6c6f0779ec1415799a5e638b51.css?body=1" for 127.0.0.1 at 2016-08-05 15:30:24 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:30:24 +0200
+
+
+Started GET "/assets/application.self-af944636177d76a4620ff397ab8fbff6bfe6c29066c6893263023289681f3f27.js?body=1" for 127.0.0.1 at 2016-08-05 15:30:24 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:30:24 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:30:24 +0200
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 15:30:30 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 516ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search_term=4" for 127.0.0.1 at 2016-08-05 15:30:36 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"4"}
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 308ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search_term=4" for 127.0.0.1 at 2016-08-05 15:31:14 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"4"}
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 2233ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-b8815c05f6bde87220f1baf2f52c448231a56bb07d8a6ede741ae732f30ecef9.css?body=1" for 127.0.0.1 at 2016-08-05 15:31:16 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:31:16 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:31:16 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:31:16 +0200
+
+
+Started GET "/assets/application.self-feb61d00ef68bcaa97c7f9952baed4678e4e1752674cc98e0ca370f05db91fde.css?body=1" for 127.0.0.1 at 2016-08-05 15:31:16 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:31:16 +0200
+
+
+Started GET "/assets/application.self-af944636177d76a4620ff397ab8fbff6bfe6c29066c6893263023289681f3f27.js?body=1" for 127.0.0.1 at 2016-08-05 15:31:16 +0200
+
+
+Started GET "/?search_term=4" for 127.0.0.1 at 2016-08-05 15:32:12 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"4"}
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 502ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-b8815c05f6bde87220f1baf2f52c448231a56bb07d8a6ede741ae732f30ecef9.css?body=1" for 127.0.0.1 at 2016-08-05 15:32:13 +0200
+
+
+Started GET "/assets/application.self-feb61d00ef68bcaa97c7f9952baed4678e4e1752674cc98e0ca370f05db91fde.css?body=1" for 127.0.0.1 at 2016-08-05 15:32:13 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:32:13 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:32:13 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:32:13 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:32:13 +0200
+
+
+Started GET "/assets/application.self-af944636177d76a4620ff397ab8fbff6bfe6c29066c6893263023289681f3f27.js?body=1" for 127.0.0.1 at 2016-08-05 15:32:13 +0200
+
+
+Started GET "/?search_term=4" for 127.0.0.1 at 2016-08-05 15:35:37 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"4"}
+  Rendered pages/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 892ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-feb61d00ef68bcaa97c7f9952baed4678e4e1752674cc98e0ca370f05db91fde.css?body=1" for 127.0.0.1 at 2016-08-05 15:35:38 +0200
+
+
+Started GET "/assets/_home.self-b8815c05f6bde87220f1baf2f52c448231a56bb07d8a6ede741ae732f30ecef9.css?body=1" for 127.0.0.1 at 2016-08-05 15:35:38 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:35:38 +0200
+
+
+Started GET "/assets/application.self-af944636177d76a4620ff397ab8fbff6bfe6c29066c6893263023289681f3f27.js?body=1" for 127.0.0.1 at 2016-08-05 15:35:38 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:35:38 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:35:38 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:35:38 +0200
+
+
+Started GET "/?search_term=4" for 127.0.0.1 at 2016-08-05 15:35:51 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"4"}
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 863ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-b8815c05f6bde87220f1baf2f52c448231a56bb07d8a6ede741ae732f30ecef9.css?body=1" for 127.0.0.1 at 2016-08-05 15:35:52 +0200
+
+
+Started GET "/assets/application.self-feb61d00ef68bcaa97c7f9952baed4678e4e1752674cc98e0ca370f05db91fde.css?body=1" for 127.0.0.1 at 2016-08-05 15:35:52 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:35:52 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:35:52 +0200
+
+
+Started GET "/assets/application.self-af944636177d76a4620ff397ab8fbff6bfe6c29066c6893263023289681f3f27.js?body=1" for 127.0.0.1 at 2016-08-05 15:35:52 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:35:52 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:35:52 +0200
+
+
+Started GET "/?search_term=4" for 127.0.0.1 at 2016-08-05 15:36:30 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"4"}
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 378ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/_home.self-b8815c05f6bde87220f1baf2f52c448231a56bb07d8a6ede741ae732f30ecef9.css?body=1" for 127.0.0.1 at 2016-08-05 15:36:31 +0200
+
+
+Started GET "/assets/application.self-af944636177d76a4620ff397ab8fbff6bfe6c29066c6893263023289681f3f27.js?body=1" for 127.0.0.1 at 2016-08-05 15:36:31 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-08-05 15:36:31 +0200
+
+
+Started GET "/assets/application.self-feb61d00ef68bcaa97c7f9952baed4678e4e1752674cc98e0ca370f05db91fde.css?body=1" for 127.0.0.1 at 2016-08-05 15:36:31 +0200
+
+
+Started GET "/assets/chewhead-2e4c932dcf76845f473cd082e30e134ed5a2469521d9d7caddac766af07f5d37.png" for 127.0.0.1 at 2016-08-05 15:36:31 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-08-05 15:36:31 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-08-05 15:36:31 +0200
+
+
+Started GET "/?search_term=2" for 127.0.0.1 at 2016-08-05 15:36:36 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"2"}
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 437ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search_term=55" for 127.0.0.1 at 2016-08-05 15:36:40 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"55"}
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 344ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?search_term=12" for 127.0.0.1 at 2016-08-05 15:36:43 +0200
+Processing by PagesController#home as HTML
+  Parameters: {"search_term"=>"12"}
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 475ms (Views: 14.7ms | ActiveRecord: 0.0ms)
