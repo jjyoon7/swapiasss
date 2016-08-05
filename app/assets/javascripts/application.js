@@ -31,7 +31,7 @@ $(document).ready(function () {
 // var audio = $("audio/chewsound.mpe")[0];
 // audio.play();
 
-var audio = $("audio/chewsound.mp3")[0];
+var audio = $("audio/chewsound.mp3")[0]; // I found this code and filled with the file name but not working. hmm.
 $("#wookiever").mouseenter(function() {
   audio.play();
 });
