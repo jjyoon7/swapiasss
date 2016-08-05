@@ -2,15 +2,20 @@
 <html>
 <head>
   <title>ask chewie</title>
+
+
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-  <link href="https://fonts.googleapis.com/css?family=Candal|Molengo" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Candal|Molengo|Secular+One" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
 
   <%= yield %>
 
+  <audio>
+    <source src="audio/chewsound.mp3"></source>
+  </audio>
 </body>
 </html>

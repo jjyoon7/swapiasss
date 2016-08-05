@@ -1,22 +1,45 @@
 <div class="container">
-  <div class="chewie-part">
-    <%= image_tag "chewhead.png", class: "chewie" %>
-  </div>
+<!--   <div class="row">
+    <div class="col-xs-12 col-sm-6"> -->
+      <div class="chewie-part">
+        <%= image_tag "chewhead.png", class: "chewie" %>
+      </div>
+<!--     </div>
+  </div> -->
 
-  <div class="data-part">
-    <h1>Ask Chewie!</h1>
-    <div class="form">
-        <form action="/" method="get" class="search-bar">
-          <input type="text" name="search_term" placeholder="put 1 to 88 to find starwars characters">
-          <input type="submit">
-          <input type="submit" value="wookie" class="wookiever">
+<!--   <div class="col-xs-12 col-sm-6"> -->
+    <div class="data-part">
+      <h1>Ask Chewie!</h1>
+      <div class="chewie-form">
+        <form action="/" method="get">
+          <input type="text" name="search_term" placeholder="put 1 to 88 to find starwars characters" class="search-bar">
+          <input type="submit" class="btn-norm">
+          <input type="button" value="wookie" id="wookiever">
         </form>
-    </div>
+      </div>
 
-    <div class="data">
-        <h2><%= @data_from_api["name"] %></h2>
-        <%= @data_from_api["homeworld"] %>
+      <br>
+
+      <div class="data">
+       <h2>
+        <%= @data_from_api["name"] %>
+      </h2>
+
+      <br>
+
+        <% if @data_from_api == nil %>
+        <% return %>
+          <p>
+            "ask chewie about his fellow star beings"
+          </p>
+        <% else %>
+          <p>
+            <%= @data_from_api["name"] %>'s homeworld is <%= @data_from_api["homeworld"] %> and its born in <%= @data_from_api["birth_year"]%>. Height is <%= @data_from_api["height"] %> and mass is <%= @data_from_api["mass"] %>. <br><br> Chewie likes that it has <%= @data_from_api["eye_color"] %> eye color.
+          </p>
+        <% end %>
+
     </div>
   </div>
 </div>
+<!-- </div> -->
 
