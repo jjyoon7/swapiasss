@@ -14,3 +14,9 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function () {
+    $('wookiever').click(function () {
+       $('form').append('<p>?format=wookiee</p>') // I want to append this in order to translate json data to wookie form
+        })
+    });
