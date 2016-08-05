@@ -18,13 +18,26 @@
         </form>
       </div>
 
+      <br>
+
       <div class="data">
        <h2>
         <%= @data_from_api["name"] %>
       </h2>
-      <p>
-        <%= @data_from_api["name"] %>'s homeworld is <%= @data_from_api["homeworld"] %> and its born in <%= @data_from_api["birth_year"] %>
-      </p>
+
+      <br>
+
+        <% if @data_from_api == nil %>
+        <% return %>
+          <p>
+            "ask chewie about his fellow star beings"
+          </p>
+        <% else %>
+          <p>
+            <%= @data_from_api["name"] %>'s homeworld is <%= @data_from_api["homeworld"] %> and its born in <%= @data_from_api["birth_year"]%>. Height is <%= @data_from_api["height"] %> and mass is <%= @data_from_api["mass"] %>. <br><br> Chewie likes that it has <%= @data_from_api["eye_color"] %> eye color.
+          </p>
+        <% end %>
+
     </div>
   </div>
 </div>
