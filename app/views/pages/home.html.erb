@@ -1,52 +1,50 @@
 <div class="container">
-<!--   <div class="row">
-  <div class="col-xs-12 col-sm-6"> -->
-    <div class="chewie-part">
-      <%= image_tag "chewhead.png" %>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6">
+      <div class="chewie-part">
+        <p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">
+          <%= image_tag "chewhead.png" %>
+        </p>
+        <audio id='mySound' src='http://s.cdpn.io/1202/Star_Wars_original_opening_crawl_1977.mp3' type="audio/ogg"/>
+      </div>
     </div>
-<!--     </div>
-</div> -->
 
-<!--   <div class="col-xs-12 col-sm-6"> -->
-<div class="data-part">
-  <h1>Ask Chewie!</h1>
-  <p>ask Chewie about his fellow star beings!</p>
-  <div class="chewie-form">
-    <form action="/" method="get">
-      <input type="text" name="search_term" placeholder="put number 1 to 88" class="search-bar">
-      <input type="submit" class="btn-norm">
-      <p onmouseover="PlaySound('mySound')"
-      onmouseout="StopSound('mySound')">
-        <input type="button" value="wookiee" id="wookiever">
-      <audio id='mySound' src='../assets/audio/chewsound.mp3'/>
-      </p>
+    <div class="col-xs-12 col-sm-6">
+      <div class="data-part">
+        <h1>Ask Chewie!</h1>
+        <p>ask Chewie about his fellow star beings!</p>
+        <div class="chewie-form">
+          <form action="/" method="get">
+            <input type="text" name="search_term" placeholder="put number 1 to 88" class="search-bar">
+            <input type="submit" class="btn-norm">
+            <input type="button" value="wookiee" id="wookiever">
+          </form>
+        </div>
 
+        <br>
 
-    </form>
+        <div class="data">
+          <h2>
+           <%= @data_from_api["name"] %>
+         </h2>
+
+         <br>
+
+         <% if @data_from_api == nil %>
+         <% return %>
+         <p>
+          "ask chewie about his fellow star beings"
+        </p>
+        <% else %>
+        <p class="p-info-part">
+          <%= @data_from_api["name"] %>'s homeworld is <%= @data_from_api["homeworld"] %> and its born in <%= @data_from_api["birth_year"]%>. Height is <%= @data_from_api["height"] %> and mass is <%= @data_from_api["mass"] %>. <br><br> Chewie likes that it has <%= @data_from_api["eye_color"] %> eye color.
+        </p>
+        <% end %>
+      </div>
+    </div>
   </div>
-
-  <br>
-
-  <div class="data">
-   <h2>
-    <%= @data_from_api["name"] %>
-  </h2>
-
-  <br>
-
-  <% if @data_from_api == nil %>
-  <% return %>
-  <p>
-    "ask chewie about his fellow star beings"
-  </p>
-  <% else %>
-  <p class="p-info-part">
-    <%= @data_from_api["name"] %>'s homeworld is <%= @data_from_api["homeworld"] %> and its born in <%= @data_from_api["birth_year"]%>. Height is <%= @data_from_api["height"] %> and mass is <%= @data_from_api["mass"] %>. <br><br> Chewie likes that it has <%= @data_from_api["eye_color"] %> eye color.
-  </p>
-  <% end %>
-
 </div>
 </div>
 </div>
-<!-- </div> -->
+
 

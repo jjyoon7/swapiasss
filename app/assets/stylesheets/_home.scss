@@ -10,6 +10,8 @@ color: #929292;
 
 .chewie-part {
   animation: swing 2s infinite ease-in-out;
+  margin-top: 33vh;
+  cursor: pointer;
 }
 
 #wookiever {
@@ -60,14 +62,15 @@ body {
 }
 
 .container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
+  position: relative;
+  // display: flex;
+  // // flex-direction: row;
+  // align-items: center;
+  // justify-content: space-around;
 }
 
 input {
-  flex-grow: 1;
+  // flex-grow: 1;
   border: none;
   border-radius: 4px;
   margin-top: 10px;
