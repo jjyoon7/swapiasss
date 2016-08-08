@@ -15,7 +15,7 @@
         <form action="/" method="get">
           <input type="text" name="search_term" placeholder="put number 1 to 88" class="search-bar">
           <input type="submit" class="btn-norm">
-          <input type="button" value="wookie" id="wookiever">
+          <input type="button" value="wookiee" id="wookiever">
         </form>
       </div>
 
@@ -34,7 +34,7 @@
             "ask chewie about his fellow star beings"
           </p>
         <% else %>
-          <p>
+          <p class="p-info-part">
             <%= @data_from_api["name"] %>'s homeworld is <%= @data_from_api["homeworld"] %> and its born in <%= @data_from_api["birth_year"]%>. Height is <%= @data_from_api["height"] %> and mass is <%= @data_from_api["mass"] %>. <br><br> Chewie likes that it has <%= @data_from_api["eye_color"] %> eye color.
           </p>
         <% end %>
