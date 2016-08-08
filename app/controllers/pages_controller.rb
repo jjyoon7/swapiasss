@@ -1,7 +1,12 @@
 class PagesController < ApplicationController
   def home
-      @home_params = params[:search_term]
-      @data_from_api = JSON.parse(swapi_data(@home_params))
+    @home_params = params[:search_term]
+    @data_from_api = JSON.parse(swapi_data(@home_params))
+    if @data_from_api.nil?
+      flash.now[:danger] = "Ask chewie!"
+    else
+      @data_from_api
+    end
     # @chew_question_fav_human = Swapi.get_person(14)
     # @chew_question_from = Swapi.get_planet(14)
     # @chew_question_self = Swapi.get_person(13)
