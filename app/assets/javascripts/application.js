@@ -25,13 +25,15 @@ $(document).ready(function () {
      })
 });
 
-// var audio = document.getElementsByTagName("audio")[0];
-// audio.play();
+// I didn't wrote this code!
+function PlaySound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.play();
+}
 
-// var audio = $("audio/chewsound.mpe")[0];
-// audio.play();
-
-var audio = $("audio/chewsound.mp3")[0]; // I found this code and filled with the file name but not working. hmm.
-$("#wookiever").mouseenter(function() {
-  audio.play();
-});
+function StopSound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.pause();
+    thissound.currentTime = 0;
+}
+//til here! This is for the wookiee button to play sound when the mouse hover
