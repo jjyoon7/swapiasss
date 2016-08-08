@@ -27,7 +27,7 @@ $(document).ready(function () {
 
 // I didn't wrote this code!
 function PlaySound(soundobj) {
-    var thissound=document.getElementById(soundobj);
+    var thissound=document.getElementById("#mySound");
     thissound.play();
 }
 
