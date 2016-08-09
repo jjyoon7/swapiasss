@@ -1,25 +1,23 @@
 class PagesController < ApplicationController
   def home
-    @home_params = params[:search_term]
-    @data_from_api = JSON.parse(swapi_data(@home_params))
-    if @data_from_api.nil?
+    search_term = params[:search_term]
+    if search_term.nil?
       flash.now[:danger] = "Ask chewie!"
+      search_term
     else
-      @data_from_api
+      @person = JSON.parse(person(search_term))
+      @planet = planet(@person)
     end
-    # @chew_question_fav_human = Swapi.get_person(14)
-    # @chew_question_from = Swapi.get_planet(14)
-    # @chew_question_self = Swapi.get_person(13)
-    # @chew_question_ship = Swapi.get_starship(10)
-    # @chew_question_whip = Swapi.get_person(84)
   end
 
-  def swapi_data(home_params)
-    Swapi.get_person(home_params) ||
-    Swapi.get_planet(home_params) ||
-    Swapi.get_starship(home_params) ||
-    Swapi.get_vehicle(home_params) ||
-    Swapi.get_film(home_params)
+  private
+
+  def person(home_params)
+      Swapi.get_person(home_params)
+  end
+
+  def planet(person)
+    JSON.parse(Swapi.get_planet(person["homeworld"].scan(/.*(\d)\/$/).flatten[0]))
   end
 end
 
