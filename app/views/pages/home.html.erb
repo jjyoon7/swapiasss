@@ -5,45 +5,41 @@
         <p onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">
           <%= image_tag "chewhead.png" %>
         </p>
-        <audio id='mySound' src='http://s.cdpn.io/1202/Star_Wars_original_opening_crawl_1977.ogg' type="audio/ogg"/>
-      </div>
-    </div>
-
-    <div class="col-xs-12 col-sm-6">
-      <div class="data-part">
-        <h1>Ask Chewie!</h1>
-        <p>ask Chewie about his fellow star beings!</p>
-        <div class="chewie-form">
-          <form action="/" method="get">
-            <input type="text" name="search_term" placeholder="put number 1 to 88" class="search-bar">
-            <input type="submit" class="btn-norm">
-            <input type="button" value="wookiee" id="wookiever">
-          </form>
+        <audio id='mySound' src='<%= audio_path 'chewsound_01.ogg' %>' type="audio/ogg"/>
         </div>
+      </div>
 
-        <br>
+      <div class="col-xs-12 col-sm-6">
+        <div class="data-part">
+          <h1>Ask Chewie!</h1>
+          <p>ask Chewie about his fellow star beings!</p>
+          <div class="chewie-form">
+            <form action="/" method="get">
+              <input type="text" name="search_term" placeholder="put number 1 to 88" class="search-bar">
+              <input type="submit" class="btn-norm">
+              <input type="button" value="wookiee" id="wookiever">
+            </form>
+          </div>
 
-        <div class="data">
-          <h2>
-           <%= @data_from_api["name"] %>
-         </h2>
+          <br>
 
-         <br>
+          <div class="data">
+           <% unless @person.nil? %>
+            <h2>
+               <%= @person["name"] %>
+            </h2>
+           <% end %>
 
-         <% if @data_from_api == nil %>
-         <% return %>
-         <p>
-          "ask chewie about his fellow star beings"
-        </p>
-        <% else %>
-        <p class="p-info-part">
-          <%= @data_from_api["name"] %>'s homeworld is <%= @data_from_api["homeworld"] %> and its born in <%= @data_from_api["birth_year"]%>. Height is <%= @data_from_api["height"] %> and mass is <%= @data_from_api["mass"] %>. <br><br> Chewie likes that it has <%= @data_from_api["eye_color"] %> eye color.
-        </p>
-        <% end %>
+           <br>
+           <% unless @person.nil? %>
+           <p class="p-info-part">
+            <%= @person["name"] %>'s homeworld is <%= @planet["name"] %> and its born in <%= @person["birth_year"]%>. Height is <%= @person["height"] %> and mass is <%= @person["mass"] %>. <br><br> Chewie likes that it has <%= @person["eye_color"] %> eye color.
+          </p>
+          <% end %>
+        </div>
       </div>
     </div>
   </div>
-</div>
 </div>
 </div>
 
